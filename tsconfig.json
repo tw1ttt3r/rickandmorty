@@ -95,7 +95,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@": [ "pages/*" ]
+    }
   },
   "include": [ "./pages/**/*.tsx" ],
   "exclude": [ "/node_modules" ]
