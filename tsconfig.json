@@ -97,7 +97,9 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@": [ "pages/*" ]
+      "@/pages/*": [ "pages/*" ],
+      "@/layouts/*": [ "layouts/*" ],
+      "@/components/*": [ "components/*" ],
     }
   },
   "include": [ "./pages/**/*.tsx" ],
